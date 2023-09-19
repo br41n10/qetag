@@ -1,8 +1,8 @@
 # 七牛 qetag
 
-将七牛 kodo etag 算法实现了 Golang 的 hash.Hash 接口
+将七牛 kodo etag 算法实现了 Golang 的 `hash.Hash` 接口
 
-* 便于上传文件到 kodo 后的完整性校验
+* 便于上传/下载文件后的完整性校验
 * 实现了 io.Reader 的数据流不用全部读取（下载）就可以计算得到七牛 etag
 
 
